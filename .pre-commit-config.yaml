@@ -1,0 +1,20 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: "v4.6.0"
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+        exclude: ".*bootstrap-italia.bundle.min.js"
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+  - repo: https://github.com/spinergie/pre-commit-dprint
+    rev: "v0.45.0"
+    hooks:
+    - id: dprint
+      args: ["--allow-no-files"]

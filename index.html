@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>FanoLUG</title>
+    <meta name="description" content="Il sito web del FortunaeLUG">
+    <meta name="author" content="Fortuna Luca">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    >
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script
+      src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div class="section hero" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <h1 class="hero-heading">FortunaeLUG [aka FanoLUG]</h1>
+            Il FortunaeLUG (o cosiddetto FanoLUG) è il gruppo di utenti <a
+              href="https://it.wikipedia.org/wiki/Linux"
+            >GNU/Linux</a> di <a href="https://it.wikipedia.org/wiki/Fano"
+            >Fano</a>
+            (e dintorni).<br>
+            Puoi partecipare e seguire le attività inscrivendoti alla nostra
+            chat <a href="https://telegram.me/joinchat/AeQvlQDM8KHifECiLUSdzQ"
+            >Telegram</a>.<br>
+            Per comunicazioni dirette puoi scriverci una <a
+              href="mailto:gecco@napodano.com"
+            >email</a>.<br>
+          </div>
+          <div class="one-half column phones">
+            <img src="images/logolug.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section social-links" id="social-links">
+      <div class="container">
+        <div class="row">
+          <div class="one-third column social-link">
+            <a
+              href="https://telegram.me/joinchat/AeQvlQDM8KHifECiLUSdzQ"
+              target="_blank"
+            >
+              <h2 class="social-link-multiplier">
+                <img src="images/telegram.png">
+              </h2>
+              <p class="social-link-description button button-primary">
+                #Telegram
+              </p>
+            </a>
+          </div>
+          <div class="one-third column social-link">
+            <a
+              href="https://github.com/fanolug"
+              target="_blank"
+            >
+              <h2 class="social-link-multiplier">
+                <img src="images/github.png">
+              </h2>
+              <p class="social-link-description button button-primary">
+                #Github
+              </p>
+            </a>
+          </div>
+          <div class="one-third column social-link">
+            <a
+              href="mailto:gecco@napodano.com"
+              target="_blank"
+            >
+              <h2 class="social-link-multiplier">
+                <img src="images/gmail.png">
+              </h2>
+              <p class="social-link-description button button-primary">
+                #Email
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section archive" id="archive">
+      <div class="container">
+        <h3 class="section-heading">Archivio</h3>
+        <p class="section-description">
+          lo storico del FanoLUG
+        </p>
+        <div class="row">
+          <div class="one-half column archive">
+            <h4>#mailinglists</h4>
+            <a
+              class="button button-primary"
+              href="https://groups.google.com/g/fanolug"
+              target="_blank"
+            >Google groups</a>
+            <a
+              class="button button-primary"
+              href="https://www.freelists.org/archive/fanolug/"
+              target="_blank"
+            >Freelist</a>
+          </div>
+          <div class="one-half column archive">
+            <h4>#ilinkdellasettimana</h4>
+            <a
+              class="button button-primary"
+              href="https://groups.google.com/forum/#!searchin/fanolug/%5Bi$20link$20della$20settimana%5D%7Csort:date"
+              target="_blank"
+            >la rubrica "ilinkdellasettimana"</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section footer">
+      <div class="container">
+        <h3 class="section-heading"></h3>
+        <p class="section-description"></p>
+        <div class="row">
+          <p>
+            <span style="display: inline-block; transform: rotate(180deg);"
+            >&copy;</span> Copyleft
+            <span id="year"></span> - Associazione Culturale "FortunaeLUG"
+          </p>
+          <p>
+            Linux User Group di Fano e dintorni
+          </p>
+          <p>
+            <a href="https://www.fanolug.org">www.fanolug.org</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+</html>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
