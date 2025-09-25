@@ -2,14 +2,22 @@ a {
   color: #0065b3;
 }
 
-header {
-  text-align: center;
-  margin: 2rem;
+body {
+  background-color: #f2f2f2;
 }
 
 footer {
   text-align: center;
   margin: 2rem;
+}
+
+header {
+  text-align: center;
+  margin: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
 }
 
 .balloon-icon {
@@ -26,12 +34,12 @@ footer {
   align-items: flex-end;
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
 .news-container {
   border-color: rgb(146, 204, 65);
+}
+
+.nes-container.with-title > .title {
+  background-color: #f2f2f2;
 }
 
 @media only screen and (min-width: 600px) {
