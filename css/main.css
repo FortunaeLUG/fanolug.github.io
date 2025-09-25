@@ -1,0 +1,46 @@
+a {
+  color: #0065b3;
+}
+
+header {
+  text-align: center;
+  margin: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem;
+}
+
+.balloon-icon {
+  min-width: 50px;
+  padding: 50px 10px 0 0;
+}
+
+.balloon-icon img {
+  width: 100%;
+}
+
+.message-left {
+  display: flex;
+  align-items: flex-end;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.news-container {
+  border-color: rgb(146, 204, 65);
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 80%;
+    margin: auto;
+  }
+
+  .balloon-icon {
+    width: 10%;
+  }
+}
