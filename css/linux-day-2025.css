@@ -22,7 +22,8 @@
 }
 
 .logo-item img {
-  width: 100%;
+  width: auto;
+  max-height: 7rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -33,10 +34,10 @@
 
 @media only screen and (min-width: 992px) {
   .logo-item {
-    flex-basis: 0;
+    flex-basis: auto;
   }
 
-.logos-container {
-  gap: 20px;
-}
+  .logos-container {
+    gap: 20px;
+  }
 }
