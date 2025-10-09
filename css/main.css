@@ -71,6 +71,14 @@ section {
   max-height: 7rem;
 }
 
+.program-container ul {
+  padding-left: 20px;
+}
+
+.program-container li::before {
+  top: 2px !important;
+}
+
 @media only screen and (min-width: 600px) {
   .logos-container {
     flex-wrap: nowrap;
@@ -98,6 +106,10 @@ section {
   main {
     width: 60%;
   }
+
+  .program-container ul {
+    padding-left: 40px;
+  }
 }
 
 @media print {
@@ -107,10 +119,6 @@ section {
 
   a {
     color: inherit;
-  }
-
-  .program-container ul {
-    padding-left: 20px;
   }
 
   .program-container {
